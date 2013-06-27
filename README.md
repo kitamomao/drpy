@@ -32,9 +32,9 @@ The execution of above command with options converts the original text sent from
 into an orthographic style text  
 "山の彼方の空遠く幸ひ住むと人の云ふ."
 
-You can also specify a file name with an option "-i" as described below. 
+You can also specify an input file name with an option "-i" as described below. 
 
     $ ./drpy.py -u -D dic/maruyaex-v03 -i sample.txt  
-		山の彼方の空遠く幸ひ住むと人の云ふ
+    山の彼方の空遠く幸ひ住むと人の云ふ
 
 
