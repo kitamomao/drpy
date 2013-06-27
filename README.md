@@ -16,13 +16,16 @@ Installation
 
 Usage
 ----
-1. Dictionary creation
+### Dictionary creation ###
 
-   $ ./drpy -c -D dic/maruyaex-v03
+    $ ./drpy.py -c -D dic/maruyaex-v03
 
-The execution of above command produces maruyaex-v03.trie and maruyaex-v03.db files under the dic directory.
+The execution of above command with options produces maruyaex-v03.trie and maruyaex-v03.db files under the dic directory.
 
-2. Text conversion
+### Text conversion ###
 
-	
+		$ echo "山の彼方の空遠く幸い住むと人の言う" | ./drpy.py -u -D dic/maruyaex-v03
+		山の彼方の空遠く幸ひ住むと人の云ふ
 
+The execution of above command with options converts the original text from echo command "山の彼方の空遠く幸い住むと人の言う"  
+into an orthographic style text "山の彼方の空遠く幸ひ住むと人の云ふ."
