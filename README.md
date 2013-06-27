@@ -7,3 +7,22 @@ an orthographic style kanji and kana text using a dictionary named [Maruya-kun v
 
 [1]: http://homepage3.nifty.com/01117/drpl.html   "drpl"
 [2]: http://hp.vector.co.jp/authors/VA005156/     "Maruya-kun"
+
+
+Installation
+----
+
+    $ chmod 755 drpy
+
+Usage
+----
+1. Dictionary creation
+
+   $ ./drpy -c -D dic/maruyaex-v03
+
+The execution of above command produces maruyaex-v03.trie and maruyaex-v03.db files under the dic directory.
+
+2. Text conversion
+
+	
+
