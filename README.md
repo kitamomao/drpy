@@ -12,7 +12,7 @@ an orthographic style kanji and kana text using a dictionary named [Maruya-kun v
 Installation
 ----
 
-    $ chmod 755 drpy
+    $ chmod 755 drpy.py
 
 Usage
 ----
