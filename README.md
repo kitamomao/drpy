@@ -27,5 +27,7 @@ The execution of above command with options produces maruyaex-v03.trie and maruy
 		$ echo "山の彼方の空遠く幸い住むと人の言う" | ./drpy.py -u -D dic/maruyaex-v03
 		山の彼方の空遠く幸ひ住むと人の云ふ
 
-The execution of above command with options converts the original text from echo command "山の彼方の空遠く幸い住むと人の言う"  
-into an orthographic style text "山の彼方の空遠く幸ひ住むと人の云ふ."
+The execution of above command with options converts the original text from echo command  
+"山の彼方の空遠く幸い住むと人の言う"  
+into an orthographic style text  
+"山の彼方の空遠く幸ひ住むと人の云ふ."
