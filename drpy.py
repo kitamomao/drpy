@@ -78,7 +78,8 @@ class DictBasedTextReplacer:
 
 	def replace_text(self, text):
 		result = []
-		text = unicode(text, 'utf-8')
+		if type(text) is not unicode:
+			text = unicode(text, 'utf-8')
 		while text:
 			dbe = self._db.get(str(text[0]))
 			if dbe is not None:

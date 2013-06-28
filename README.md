@@ -24,8 +24,8 @@ The execution of above command with options produces maruyaex-v03.trie and maruy
 
 ### Text conversion ###
 
-		$ echo "山の彼方の空遠く幸い住むと人の言う" | ./drpy.py -u -D dic/maruyaex-v03
-		山の彼方の空遠く幸ひ住むと人の云ふ
+    $ echo "山の彼方の空遠く幸い住むと人の言う" | ./drpy.py -u -D dic/maruyaex-v03
+    山の彼方の空遠く幸ひ住むと人の云ふ
 
 The execution of above command with options converts the original text sent from echo command via a pipe 
 "山の彼方の空遠く幸い住むと人の言う"  
