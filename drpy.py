@@ -110,7 +110,7 @@ class DictBasedTextReplacer:
 			if depth > 0:
 				if depth == 1:
 					s = []
-				""" Accumelate characters into the list 's' until v is not None
+				""" Accumulate characters into the list 's' until v is not None
 				Depth value occasionally changes so we use s[0:depth] value instead of the entire list."""
 				if len(s) >= depth:
 					s[depth-1] = k # some value already stored so overwrite it
@@ -142,7 +142,7 @@ class Trie:
 		if not tail:
 			cur_node.value = value
 			return # No further recursion
-		self.root[head].add(tail, value)
+		cur_node.add(tail, value)
 
 	def lookup(self, s, default=None):
 		""" Look up the value corresponding to
